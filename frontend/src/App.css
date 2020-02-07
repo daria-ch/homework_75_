@@ -1,0 +1,51 @@
+.App {
+    max-width: 1000px;
+    margin: 15px auto;
+}
+
+.App form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+}
+
+.message textarea {
+    width: 70%;
+    height: 200px;
+    margin: 20px 0;
+    resize: none;
+    outline: none;
+}
+
+.message label {
+    padding-right: 20px;
+}
+
+.buttons input {
+    height: 20px;
+    outline: none;
+}
+
+.buttons label {
+    padding-right: 73px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons button {
+    border: 0;
+    background: transparent;
+    font-size: 40px;
+    padding: 0 10px 5px 10px;
+    outline: none;
+    cursor: pointer;
+}
+
